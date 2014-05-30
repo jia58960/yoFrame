@@ -1,0 +1,41 @@
+{
+  "name": "yo-frame",
+  "version": "0.1.0",
+  "description": "Yet another amazing AngularJS app",
+  "keywords": [
+    "angular"
+  ],
+  "homepage": "https://github.com/jia58960/yo-frame",
+  "bugs": "https://github.com/jia58960/yo-frame/issues",
+  "author": {
+    "name": "CherryJia",
+    "email": "547221469@qq.com",
+    "url": "https://github.com/jia58960"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jia58960/yo-frame.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "dependencies": {
+    "bootstrap": "3.1.1",
+    "font-awesome": "4.1.0",
+    "angular-strap": "2.0.2",
+    "angular-motion": "0.3.2",
+    "bootstrap-additions": "0.2.2",
+    "angular-ui-router": "0.2.10",
+    "angular-animate": "^1.2.16",
+    "angular-cookies": "^1.2.16",
+    "angular-i18n": "^1.2.16",
+    "angular-resource": "^1.2.16",
+    "angular-route": "^1.2.16",
+    "angular-sanitize": "^1.2.16",
+    "angular-touch": "^1.2.16",
+    "angular": "^1.2.16",
+	"requirejs": "~2.1.11"
+  }
+}

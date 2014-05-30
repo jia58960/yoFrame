@@ -1,0 +1,140 @@
+<div id="navbar" class="navbar navbar-default">
+<script type="text/javascript">
+  try {
+    ace.settings.check('navbar', 'fixed')
+  } catch (e) {
+  }
+</script>
+
+  <div class="navbar-container" id="navbar-container">
+    <button type="button" class="navbar-toggle menu-toggler pull-left" id="menu-toggler">
+      <span class="sr-only">Toggle sidebar</span>
+
+      <span class="icon-bar"></span>
+
+      <span class="icon-bar"></span>
+
+      <span class="icon-bar"></span>
+    </button>
+
+    <div class="navbar-header pull-left">
+      <a href="#" class="navbar-brand">
+        <small>
+          <i class="fa fa-leaf"></i>
+          Yo Frame
+        </small>
+      </a>
+    </div>
+
+    <div class="navbar-buttons navbar-header pull-right" role="navigation" ui-view="header">
+
+    </div>
+  </div>
+</div>
+
+
+<div class="main-container" id="main-container">
+  <div id="sidebar" class="sidebar responsive">
+  <script type="text/javascript">
+    try{ace.settings.check('sidebar' , 'fixed')}catch(e){}
+  </script>
+
+    <div class="sidebar-shortcuts" id="sidebar-shortcuts">
+      <div class="sidebar-shortcuts-large" id="sidebar-shortcuts-large">
+        <button class="btn btn-success">
+          <i class="ace-icon fa fa-signal"></i>
+        </button>
+
+        <button class="btn btn-info">
+          <i class="ace-icon fa fa-pencil"></i>
+        </button>
+
+        <button class="btn btn-warning">
+          <i class="ace-icon fa fa-users"></i>
+        </button>
+
+        <button class="btn btn-danger">
+          <i class="ace-icon fa fa-cogs"></i>
+        </button>
+      </div>
+
+      <div class="sidebar-shortcuts-mini" id="sidebar-shortcuts-mini">
+        <span class="btn btn-success"></span>
+
+        <span class="btn btn-info"></span>
+
+        <span class="btn btn-warning"></span>
+
+        <span class="btn btn-danger"></span>
+      </div>
+    </div><!-- /.sidebar-shortcuts -->
+
+    <div ui-view="nav"></div>
+
+    <div class="sidebar-toggle sidebar-collapse" id="sidebar-collapse">
+      <i class="ace-icon fa fa-angle-double-left" data-icon1="ace-icon fa fa-angle-double-left" data-icon2="ace-icon fa fa-angle-double-right"></i>
+    </div>
+
+    <script type="text/javascript">
+      try{ace.settings.check('sidebar' , 'collapsed')}catch(e){}
+    </script>
+
+  </div>
+
+  <div class="main-content">
+    <div class="breadcrumbs" id="breadcrumbs">
+      <script type="text/javascript">
+        try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+      </script>
+
+      <ul class="breadcrumb">
+        <li>
+          <i class="ace-icon fa fa-home home-icon"></i>
+          <a href="#">Home</a>
+        </li>
+        <li class="active">Dashboard</li>
+      </ul><!-- /.breadcrumb -->
+
+      <div class="nav-search" id="nav-search">
+        <form class="form-search">
+							<span class="input-icon">
+								<input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off">
+								<i class="ace-icon fa fa-search nav-search-icon"></i>
+							</span>
+        </form>
+      </div><!-- /.nav-search -->
+    </div>
+
+    <div class="page-content" ui-view="body">
+
+    </div>
+  </div>
+</div>
+
+
+<div class="footer">
+  <div class="footer-inner">
+    <div class="footer-content">
+						<span class="bigger-120">
+							<span class="blue bolder">Ace</span>
+							Application &copy; 2013-2014
+						</span>
+
+      &nbsp; &nbsp;
+						<span class="action-buttons">
+							<a href="#">
+                <i class="ace-icon fa fa-twitter-square light-blue bigger-150"></i>
+              </a>
+
+							<a href="#">
+                <i class="ace-icon fa fa-facebook-square text-primary bigger-150"></i>
+              </a>
+
+							<a href="#">
+                <i class="ace-icon fa fa-rss-square orange bigger-150"></i>
+              </a>
+						</span>
+    </div>
+  </div>
+</div>
+

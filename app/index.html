@@ -1,0 +1,71 @@
+<!doctype html>
+<!--[if lt IE 9]> <html class="no-js lt-ie9" lang="zh"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh"> <!--<![endif]-->
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>YoFrame - 旨在打造最智能的快速设计原型框架</title>
+  <meta name="description" content="Yet another amazing AngularJS app">
+
+  <!-- Sets initial viewport load and disables zooming  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <!-- Set a shorter title for iOS6 devices when saved to home screen -->
+  <meta name="apple-mobile-web-app-title" content="YoFrame">
+
+  <!-- Properties for Google+ snippets -->
+  <meta property="og:title" content="YoFrame">
+  <meta property="og:description" content="Yet another amazing AngularJS app">
+  <meta property="og:image" content="https://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png">
+
+  <!-- Author of this application -->
+  <link rel="author" href="https://github.com/jia58960"> 
+  <link rel="icon" href="http://angularjs.org/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="http://angularjs.org/favicon.ico" type="image/x-icon">
+
+  <!-- build:css styles/components.min.css -->
+  <!-- bower:css -->
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css" />
+  <link rel="stylesheet" href="bower_components/angular-motion/dist/angular-motion.min.css" />
+  <link rel="stylesheet" href="bower_components/bootstrap-additions/dist/bootstrap-additions.min.css" />
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- text fonts -->
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" />
+
+  <!-- ace styles -->
+  <link rel="stylesheet" href="lib/css/ace.min.css" />
+
+  <!--[if lte IE 9]>
+  <link rel="stylesheet" href="lib/css/ace-part2.min.css" />
+  <![endif]-->
+  <link rel="stylesheet" href="lib/css/ace-rtl.min.css" />
+
+  <!--[if lte IE 9]>
+  <link rel="stylesheet" href="lib/css/ace-ie.min.css" />
+  <![endif]-->
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+  <!--[if lt IE 9]>
+  <script src="lib/js/html5shiv.js"></script>
+  <script src="lib/js/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+
+<body class="no-skin">
+
+  <div class="site-wrapper" ui-view>
+
+  </div>
+  <!-- import requirejs-->
+  <script src="bower_components/requirejs/require.js" data-main="scripts/main"></script>
+</body>
+
+</html>
